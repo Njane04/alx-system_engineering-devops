@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -m *2 |rev -f -1 | sort -m 1 | uniq -m |sort rnk 1 \ head  -m || | rev | cat -d ' ' -f -1 | rev
